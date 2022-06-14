@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 120px;
+    background-image: url("https://wallpaperaccess.com/full/1526717.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+body {
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/68/33/flat-seamless-sport-tennis-ping-pong-pattern-vector-8846833.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    color: antiquewhite;
+
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: antiquewhite;
+}
+
+div {
+    height: 50px;
+}
+
+/* Dimencionando a canvas para o centro usando Flex Box */
+main {
+    display: flex;
+    margin: auto;
+    padding: 20px auto;
+}
+
+canvas {
+    margin: auto;
+    padding: auto;
+    background-color: darkblue;
+}
+
